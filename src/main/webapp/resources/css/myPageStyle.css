@@ -1,0 +1,64 @@
+/* 회원가입 버튼 스타일 */
+#signup button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#signup button:hover {
+    background-color: #555;
+}
+
+/* 회원가입 폼 스타일 */
+#signup {
+    width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#signup h1 {
+    margin-bottom: 20px;
+}
+
+#signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signup form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block; /* Set the display to inline-block */
+    margin-right: 10px; /* Add some spacing between the labels and radio buttons */
+}
+
+#signup form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* 남성과 여성 라디오 버튼을 한 줄에 표시 */
+#signup form .radio-group {
+    display: inline-block; /* Set the display to inline-block */
+    margin-bottom: 10px;
+}
+
+#signup form .radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+#signup form .radio-group label {
+    display: inline-block; /* Set the display to inline-block */
+    margin-right: 10px; /* Add

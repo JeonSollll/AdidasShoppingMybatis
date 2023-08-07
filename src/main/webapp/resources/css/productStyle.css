@@ -1,0 +1,126 @@
+/* 제품 페이지 스타일 */
+#product-page {
+    padding: 20px;
+    text-align: center;
+    }
+    #product-page .product-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #product-page h2 {
+        margin-bottom: 20px;
+    }
+    
+    #product-page .product {
+        display: inline-block;
+        margin: 10px;
+    }
+    
+    #product-page .product img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    #product-page .product h3 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    
+    #product-page .product p {
+        margin-top: 5px;
+        font-size: 14px;
+        color: #666;
+    }
+    
+    #product-page .product .add-to-cart {
+        margin-top: 10px;
+        padding: 8px 16px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    #product-page .product .add-to-cart:hover {
+        background-color: #555;
+    }
+
+        /* 제품 상세 정보 스타일 */
+    #product-details {
+        display: none;
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        
+    }
+    
+    #product-details img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    /* 장바구니 스타일 */
+    #cart {
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    #cart h2 {
+        margin-bottom: 20px;
+    }
+    
+    #cart-items {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    
+    #cart-items li {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+    }
+    
+    #cart-items li img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    #cart-items li span {
+        flex-grow: 1;
+    }
+    
+    #checkout {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    #checkout:hover {
+        background-color: #555;
+    }

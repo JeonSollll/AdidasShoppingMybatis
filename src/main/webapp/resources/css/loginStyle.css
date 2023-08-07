@@ -1,0 +1,63 @@
+/* 로그인 버튼 스타일 */
+#navigation #login-button {
+    cursor: pointer;
+}
+/* 로그인 스타일 */
+#login {
+    width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+    
+    #login h2 {
+        margin-bottom: 20px;
+    }
+    
+    #login form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #login form label {
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-bottom: 5px;
+    }
+    
+    #login form input {
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    #login form button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    #login form button:hover {
+        background-color: #555;
+    }
+
+    #login form a {
+        display: block;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: #333;
+    }
+
+    #login form button[type="submit"] {
+        margin-right: 10px;
+    }

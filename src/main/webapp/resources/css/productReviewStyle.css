@@ -1,0 +1,79 @@
+/* 폼 스타일 */
+#container{
+    width: 600px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.radio-buttons label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.radio-buttons label input[type="radio"] {
+    margin-right: 5px;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons .btn {
+    margin: 0 5px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.buttons .btn-primary {
+    background-color: #FF3333;
+    border-color: #FF3333;
+    color: #fff;
+}
+
+.buttons .btn-primary:hover {
+    background-color: #ee8888;
+}
+
+.buttons .btn-secondary {
+    background-color: #eee;
+    border-color: #ccc;
+    color: #333;
+}
+
+.buttons .btn-secondary:hover {
+    background-color: #ccc;
+}
+
+.buttons .btn-danger {
+    background-color: #cc0000;
+    border-color: #cc0000;
+    color: #fff;
+}
+
+.buttons .btn-danger:hover {
+    background-color: #aa0000;
+}

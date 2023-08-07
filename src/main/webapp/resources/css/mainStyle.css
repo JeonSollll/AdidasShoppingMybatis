@@ -1,0 +1,171 @@
+    /* 메인 이미지 스타일 */
+    #main-image {
+        text-align: center;
+        margin : 0;
+    }    
+        #main-image img {
+            width: 100%;
+        }
+    
+    /* 제품 스타일 */
+    #products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+        justify-items: center;
+    }
+    
+    .product {
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    
+    .product:hover {
+        transform: translateY(-5px);
+    }
+    
+    .product img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    
+    .product h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .product p {
+        margin-bottom: 20px;
+    }
+    
+    .product .add-to-cart {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .product .add-to-cart:hover {
+        background-color: #555;
+    }
+    
+    /* 제품 상세 정보 스타일 */
+    #product-details {
+        display: none;
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    #product-details img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    
+    /* 장바구니 스타일 */
+    #cart {
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    #cart h2 {
+        margin-bottom: 20px;
+    }
+    
+    #cart-items {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    
+    #cart-items li {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+    }
+    
+    #cart-items li img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    
+    #cart-items li span {
+        flex-grow: 1;
+    }
+    
+    #checkout {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    #checkout:hover {
+        background-color: #555;
+    }
+
+section#login {
+    margin-top: 50px;
+    text-align: center;
+}
+
+section#login h2 {
+    margin-bottom: 20px;
+}
+
+section#login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#login form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+section#login form input {
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 200px;
+}
+
+section#login form a {
+    text-decoration: none;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+section#login form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
